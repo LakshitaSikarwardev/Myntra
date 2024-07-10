@@ -1,16 +1,17 @@
 import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
+import { Fullscreen } from "lucide-react"
 
 export default function Groupcode() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen mt-[100px]">
       
       
-      <section className="container mx-auto my-8 px-4 md:px-6">
+      <section className="container mx-auto my-8 px-4 md:px-6 ">
         <div className="grid md:grid-cols-2 gap-8">
           <div>
-            <h2 className="text-2xl font-bold mb-4">Your Group Code</h2>
+            <h2 className="text-4xl font-bold mb-4">Your Group Code</h2>
             <div className="bg-muted rounded-lg p-6 flex flex-col items-center justify-center">
               <span className="text-4xl font-bold">ABCD1234</span>
               <p className="text-muted-foreground mt-2">Share this code with your friends to start group purchasing.</p>
@@ -51,6 +52,12 @@ export default function Groupcode() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="mt-[40px]">
+            <img src="/placeholder.svg" alt="Side Image" width={700} height={700} className="rounded-lg object-cover ml-9" />
+          </div >
+          <div className="mt-[40px]">
+            <img src="/placeholder.svg" alt="Side Image" width={700} height={700} className="rounded-lg object-cover ml-9" />
           </div>
         </div>
       </section>
