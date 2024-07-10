@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 export function Group() {
   return (
     <div>
-      <div className="h-100% w-100% flex items-center justify-center">
+      <div className="h-100% w-100% flex items-center justify-center bg-stone-100">
         <section className="container mx-auto my-8 px-4 md:px-6 lg:px-8 xl:px-10">
           <div className="grid md:grid-cols-3 gap-8">
             {/* Product 1 */}

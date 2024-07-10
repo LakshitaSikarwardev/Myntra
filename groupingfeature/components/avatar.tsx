@@ -1,8 +1,4 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/6R9gWvaYPfS
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
+
 "use client"
 
 import { useState } from "react"
@@ -11,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 
-export default function Component() {
+export function joingroup() {
   const [cart, setCart] = useState([
     {
       id: 1,
@@ -84,11 +80,11 @@ export default function Component() {
   const totalPrice = cart.reduce((acc, item) => acc + item.price * item.quantity, 0)
   const totalQuantity = cart.reduce((acc, item) => acc + item.quantity, 0)
   return (
-    <div className="flex flex-col min-h-screen items-center justify-center bg-stone-100 text-foreground mt-5 ">
-      <section className="container mx-auto my-16 px-4 md:px-6 ">
-        <div className="grid md:grid-cols-2 gap-11  justify-center ">
+    <div className="flex flex-col min-h-screen items-center justify-center bg-background text-foreground">
+      <section className="container mx-auto my-16 px-4 md:px-6">
+        <div className="grid md:grid-cols-2 gap-8 justify-center">
           <div>
-            <h2 className="text-4xl font-bold mb-4">Cart</h2>
+            <h2 className="text-2xl font-bold mb-4">Cart</h2>
             <div className="space-y-4">
               {cart.map((item) => (
                 <div
@@ -112,14 +108,14 @@ export default function Component() {
                 </div>
               ))}
             </div>
-            <div className="mt-4 flex items-center justify-between p-12">
+            <div className="mt-4 flex items-center justify-between">
               <div>
                 <p className="text-lg font-bold ">
                   Total: <span className="text-primary">₹{totalPrice.toFixed(2)}</span>
                 </p>
                 <p className="text-muted-foreground">Total Quantity: {totalQuantity}</p>
               </div>
-              <Button className=" py-2 rounded-lg">Checkout</Button>
+              <Button className="px- py-2 rounded-lg">Checkout</Button>
             </div>
           </div>
         </div>
@@ -127,10 +123,10 @@ export default function Component() {
       <section className="container mx-auto my-16 px-4 md:px-6 flex justify-center">
         <div className="grid md:grid-cols-2 gap-8">
           <div>
-            <img src="/placeholder.svg" alt="Side Image" width={550} height={300} className="rounded-lg object-cover ml-9" />
+            <img src="/placeholder.svg" alt="Side Image" width={600} height={400} className="rounded-lg object-cover" />
           </div>
-          <div className="ml-[50px] mr-[10px]">
-            <h2 className="text-3xl font-bold mt-11 ">Group with Friends</h2>
+          <div>
+            <h2 className="text-2xl font-bold mt-11">Group with Friends</h2>
             <div className="space-y-4">
               <div className="p-7 ">
                 <Label htmlFor="groupCode" className="font-medium">
@@ -142,16 +138,16 @@ export default function Component() {
                     placeholder="Enter code"
                     value={groupCode}
                     onChange={handleGroupCodeChange}
-                    className="flex-1 rounded-lg border border-input px-4 py-6 focus:outline-none focus:ring-2 focus:ring-primary"
+                    className="flex-1 rounded-lg border border-input px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
                   />
-                  <Button onClick={handleJoinGroup} className="px-6 py-6  rounded-lg">
+                  <Button onClick={handleJoinGroup} className="px-6 py-2 rounded-lg">
                     Join Group
                   </Button>
-                </div>  
+                </div>
               </div>
               <div>
                 <p className="text-muted-foreground mb-6">Or create a new group to share with your friends:</p>
-                <Button onClick={handleCreateGroup} className="px-6 py-6  rounded-lg">
+                <Button onClick={handleCreateGroup} className="px-6 py-2  rounded-lg">
                   Create Group
                 </Button>
               </div>
