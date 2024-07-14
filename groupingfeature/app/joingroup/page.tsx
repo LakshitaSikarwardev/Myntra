@@ -84,6 +84,7 @@ export default function Component() {
       <section className="container mx-auto my-16 px-4 md:px-6 ">
         <div className="grid md:grid-cols-2 gap-11  justify-center ">
           <div>
+          
             <h2 className="text-4xl font-bold mb-4">Cart</h2>
             <div className="space-y-4">
               {cart.map((item) => (
@@ -123,7 +124,7 @@ export default function Component() {
       <section className="container mx-auto my-16 px-4 md:px-6 flex justify-center">
         <div className="grid md:grid-cols-2 gap-8">
           <div>
-            <img src="/placeholder.svg" alt="Side Image" width={550} height={300} className="rounded-lg object-cover ml-9" />
+            <img src="group.jpg" alt="Side Image" width={650} height={500} className="rounded-lg object-cover ml-9" />
           </div>
           <div className="ml-[50px] mr-[10px]">
             <h2 className="text-3xl font-bold mt-11 ">Group with Friends</h2>

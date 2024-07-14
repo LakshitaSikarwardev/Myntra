@@ -54,10 +54,10 @@ export default function Groupcode() {
             </div>
           </div>
           <div className="mt-[40px]">
-            <img src="/placeholder.svg" alt="Side Image" width={700} height={700} className="rounded-lg object-cover ml-9" />
+            <img src="group2.jpg" alt="Side Image" width={780} height={700} className="rounded-lg object-cover ml-9" />
           </div >
           <div className="mt-[40px]">
-            <img src="/placeholder.svg" alt="Side Image" width={700} height={700} className="rounded-lg object-cover ml-9" />
+            <img src="group6.jpg" alt="Side Image" width={780} height={700} className="rounded-lg object-cover ml-9" />
           </div>
         </div>
       </section>

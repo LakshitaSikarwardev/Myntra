@@ -1,7 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
-import { Input } from "@/components/ui/input";
-
 export function Group() {
   return (
     <div>
@@ -11,7 +8,7 @@ export function Group() {
             {/* Product 1 */}
             <div className="p-11">
               <img
-                src="/placeholder.svg"
+                src="shoes1.jpg"
                 alt="Product Image"
                 width={200}
                 height={200}
@@ -35,7 +32,7 @@ export function Group() {
             <div className="p-11">
             <div>
               <img
-                src="/placeholder.svg"
+                src="watch1.jpg"
                 alt="Product Image"
                 width={280}
                 height={300}
@@ -43,10 +40,10 @@ export function Group() {
               />
               <div className="mt-4 space-y-6">
                 <div>
-                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Comfortable casual shoes</h1>
+                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Women Analogue Watch</h1>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 1200</span>
+                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 2200</span>
                   <div className="flex items-center justify-between space-x-4">
                     <Button variant="outline">Add to Cart</Button>
                     <Button>Create Group</Button>
@@ -60,7 +57,7 @@ export function Group() {
             <div className="p-11">
             <div>
               <img
-                src="/placeholder.svg"
+                src="sweatshirt1.jpg"
                 alt="Product Image"
                 width={280}
                 height={300}
@@ -68,10 +65,10 @@ export function Group() {
               />
               <div className="mt-4 space-y-6">
                 <div>
-                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Comfortable casual shoes</h1>
+                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Women Printed Sweatshirt</h1>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 1200</span>
+                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 1000</span>
                   <div className="flex items-center justify-between space-x-4">
                     <Button variant="outline">Add to Cart</Button>
                     <Button>Create Group</Button>
@@ -86,7 +83,7 @@ export function Group() {
             <div className="p-11">
             <div>
               <img
-                src="/placeholder.svg"
+                src="tshirt1.jpg"
                 alt="Product Image"
                 width={280}
                 height={300}
@@ -94,10 +91,10 @@ export function Group() {
               />
               <div className="mt-4 space-y-6">
                 <div>
-                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Comfortable casual shoes</h1>
+                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Cotton Lounge T-shirt</h1>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 1200</span>
+                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 600</span>
                   <div className="flex items-center justify-between space-x-4">
                     <Button variant="outline">Add to Cart</Button>
                     <Button>Create Group</Button>
@@ -111,7 +108,7 @@ export function Group() {
             <div className="p-11">
             <div>
               <img
-                src="/placeholder.svg"
+                src="cargo1.jpg"
                 alt="Product Image"
                 width={280}
                 height={300}
@@ -119,10 +116,10 @@ export function Group() {
               />
               <div className="mt-4 space-y-6">
                 <div>
-                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Comfortable casual shoes</h1>
+                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Men Straight Cargo Style</h1>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 1200</span>
+                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 900</span>
                   <div className="flex items-center justify-between space-x-4">
                     <Button variant="outline">Add to Cart</Button>
                     <Button>Create Group</Button>
@@ -135,7 +132,7 @@ export function Group() {
             <div className="p-11">
             <div>
               <img
-                src="/placeholder.svg"
+                src="shirt1.jpg"
                 alt="Product Image"
                 width={280}
                 height={300}
@@ -143,36 +140,10 @@ export function Group() {
               />
               <div className="mt-4 space-y-6">
                 <div>
-                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Comfortable casual shoes</h1>
+                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Stiped Casual Shirt</h1>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 1200</span>
-                  <div className="flex items-center justify-between space-x-4">
-                    <Button variant="outline">Add to Cart</Button>
-                    <Button>Create Group</Button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </div>
-
-
-            {/* Product 2 */}
-            <div className="p-11">
-            <div>
-              <img
-                src="/placeholder.svg"
-                alt="Product Image"
-                width={280}
-                height={300}
-                className="w-full h-auto rounded-lg object-cover"
-              />
-              <div className="mt-4 space-y-6">
-                <div>
-                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Comfortable casual shoes</h1>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 1200</span>
+                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 850</span>
                   <div className="flex items-center justify-between space-x-4">
                     <Button variant="outline">Add to Cart</Button>
                     <Button>Create Group</Button>
@@ -187,7 +158,7 @@ export function Group() {
             <div className="p-11">
             <div>
               <img
-                src="/placeholder.svg"
+                src="top1.jpg"
                 alt="Product Image"
                 width={280}
                 height={300}
@@ -195,10 +166,10 @@ export function Group() {
               />
               <div className="mt-4 space-y-6">
                 <div>
-                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Comfortable casual shoes</h1>
+                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Printed Cotton peplum top</h1>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 1200</span>
+                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 950</span>
                   <div className="flex items-center justify-between space-x-4">
                     <Button variant="outline">Add to Cart</Button>
                     <Button>Create Group</Button>
@@ -213,7 +184,7 @@ export function Group() {
             <div className="p-11">
             <div>
               <img
-                src="/placeholder.svg"
+                src="kurti1.jpg"
                 alt="Product Image"
                 width={280}
                 height={300}
@@ -221,10 +192,10 @@ export function Group() {
               />
               <div className="mt-4 space-y-6">
                 <div>
-                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Comfortable casual shoes</h1>
+                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Printed kurti</h1>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 1200</span>
+                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 550</span>
                   <div className="flex items-center justify-between space-x-4">
                     <Button variant="outline">Add to Cart</Button>
                     <Button>Create Group</Button>
@@ -239,7 +210,7 @@ export function Group() {
             <div className="p-11">
             <div>
               <img
-                src="/placeholder.svg"
+                src="sandal1.jpg"
                 alt="Product Image"
                 width={280}
                 height={300}
@@ -247,10 +218,10 @@ export function Group() {
               />
               <div className="mt-4 space-y-6">
                 <div>
-                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Comfortable casual shoes</h1>
+                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Women Glam Party Sandals</h1>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 1200</span>
+                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 999</span>
                   <div className="flex items-center justify-between space-x-4">
                     <Button variant="outline">Add to Cart</Button>
                     <Button>Create Group</Button>
@@ -265,7 +236,7 @@ export function Group() {
             <div className="p-11">
             <div>
               <img
-                src="/placeholder.svg"
+                src="crocs1.jpg"
                 alt="Product Image"
                 width={280}
                 height={300}
@@ -273,10 +244,36 @@ export function Group() {
               />
               <div className="mt-4 space-y-6">
                 <div>
-                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Comfortable casual shoes</h1>
+                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Unisex Crocs</h1>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 1200</span>
+                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 2210</span>
+                  <div className="flex items-center justify-between space-x-4">
+                    <Button variant="outline">Add to Cart</Button>
+                    <Button>Create Group</Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+
+            {/* Product 2 */}
+            <div className="p-11">
+            <div>
+              <img
+                src="sunglasses1.jpg"
+                alt="Product Image"
+                width={280}
+                height={300}
+                className="w-full h-auto rounded-lg object-cover"
+              />
+              <div className="mt-4 space-y-6">
+                <div>
+                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">unisex Round Sunglasses</h1>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 710</span>
                   <div className="flex items-center justify-between space-x-4">
                     <Button variant="outline">Add to Cart</Button>
                     <Button>Create Group</Button>
@@ -290,7 +287,7 @@ export function Group() {
             <div className="p-11">
             <div>
               <img
-                src="/placeholder.svg"
+                src="bag1.jpg"
                 alt="Product Image"
                 width={280}
                 height={300}
@@ -298,10 +295,10 @@ export function Group() {
               />
               <div className="mt-4 space-y-6">
                 <div>
-                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Comfortable casual shoes</h1>
+                  <h1 className="text-xl sm:text-[15px] md:text-[23px] font-bold">Side Striped Hobo Bag</h1>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 1200</span>
+                  <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 3500</span>
                   <div className="flex items-center justify-between space-x-4">
                     <Button variant="outline">Add to Cart</Button>
                     <Button>Create Group</Button>
