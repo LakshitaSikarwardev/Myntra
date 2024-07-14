@@ -1,5 +1,8 @@
+"use client";
+import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 export function Group() {
+  const router = useRouter();
   return (
     <div>
       <div className="h-100% w-100% flex items-center justify-center bg-stone-100">
@@ -21,7 +24,7 @@ export function Group() {
                 <div className="flex items-center justify-between">
                   <span className="text-xl sm:text-[15px] md:text-[22px] font-bold">Rs 1200</span>
                   <div className="flex items-center justify-between space-x-4">
-                    <Button variant="outline">Add to Cart</Button>
+                    <Button onClick={() => router.push('/joingroup')} variant="outline">Add to Cart</Button>
                     <Button>Create Group</Button>
                   </div>
                 </div>

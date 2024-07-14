@@ -1,6 +1,6 @@
 
 "use client"
-
+import { useRouter } from "next/navigation"
 import { useState } from "react"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 
 export default function Component() {
+  const router = useRouter();
   const [cart, setCart] = useState([
     {
       id: 1,
@@ -48,9 +49,7 @@ export default function Component() {
       })
   }
   const handleCreateGroup = () => {
-    const newGroupCode = createGroup()
-    setGroupCode(newGroupCode)
-    setGroupMembers([])
+    router.push('/groupcode');
   }
   const fetchGroupDetails = (code) => {
     return new Promise((resolve, reject) => {
